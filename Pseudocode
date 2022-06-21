@@ -1,0 +1,24 @@
+#Calcular la suma de los dígitos de un código
+Initialize
+	Import libs
+	Def codigo, unidades,decenas,centenas,miles,decamiles,centmiles,millones,suma
+	Codigo = input
+	If codigo != Int
+	 	Print(‘reintente’)
+		Codigo = input
+	Else if codigo == 00
+		Exit()
+	Else 
+		unidades = residuo(codigo)
+		codigo = codigo/10
+		decenas = residuo(codigo)
+		codigo = codigo/10
+		…
+		millones = residuo(codigo)
+		codigo = codigo/10
+		suma = unidades + decenas + centenas … millones
+		print(‘la suma es: ‘ + suma)
+		print (‘¿desea repetir?’)
+		rta = input ‘y || n’ 
+	while rta== y repeat from Codigo = input
+	exit
