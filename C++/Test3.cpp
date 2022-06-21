@@ -28,6 +28,6 @@ int main(){
 		cout<<"\nDesea usar otro codigo? (y/n)\n";cin>>repetir;
 		
 		}
-		system("pause");
+		
 		return 0;	
 }
